@@ -1,7 +1,7 @@
 CSS Grid Garden Answers
 =======
 
-Grid Garden is a game for learning CSS grid layout. Check it out at (https://cssgridgarden.com).
+Grid Garden is a game for learning CSS grid layout. Check it out at https://cssgridgarden.com.
 
 ![Grid Garden screenshot](./images/screenshot.png)
 
