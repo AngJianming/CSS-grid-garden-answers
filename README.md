@@ -1,7 +1,71 @@
 CSS Grid Garden Answers
 =======
 
-Grid Garden is a game for learning CSS grid layout. Check it out at https://cssgridgarden.com.
+Grid Garden is a game for learning CSS grid layouts. Check it out at https://cssgridgarden.com.
+
+Question Answer Level 1.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+    grid-column-start: 3;
+}
+```
+
+</br>
+
+Question Answer Level 2.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#poison {
+    grid-column-start: 5;
+}
+```
+
+</br>
+
+Question Answer Level 3.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+    grid-column-start: 1;
+    grid-column-end:4;
+}
+```
+
+</br>
+
+Question Answer Level 4.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+    grid-column-start: 1;
+    grid-column-end:4;
+}
+```
+
+</br>
+
+
 
 ![Grid Garden screenshot](./images/screenshot.png)
 
