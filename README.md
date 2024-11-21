@@ -43,7 +43,7 @@ Question Answer Level 3.
 
 #water {
     grid-column-start: 1;
-    grid-column-end:4;
+    grid-column-end: 4;
 }
 ```
 
@@ -59,7 +59,7 @@ Question Answer Level 4.
 
 #water {
     grid-column-start: 1;
-    grid-column-end:4;
+    grid-column-end: 2;
 }
 ```
 
