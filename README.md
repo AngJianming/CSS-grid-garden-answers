@@ -65,6 +65,374 @@ Question Answer Level 4.
 
 </br>
 
+Question Answer Level 5.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+  
+#water {
+    grid-column-start: 1;
+    grid-column-end: -2;
+}
+```
+
+</br>
+
+Question Answer Level 6.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+  
+#poison {
+    grid-column-start : -3;
+}
+```
+
+</br>
+
+Question Answer Level 7.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+  
+#water {
+    grid-column-start: 2;
+    grid-column-end: span 2;
+}
+```
+
+</br>
+
+Question Answer Level 8.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+  
+#water {
+    grid-column-start: 1;
+    grid-column-end: apan 5;
+}
+
+```
+
+</br>
+
+Question Answer Level 9.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+    grid-column-start: span 3;
+    grid-column-end: 6;
+}
+```
+
+</br>
+
+Question Answer Level 10.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+    grid-column: 4/6;
+}
+```
+
+</br>
+
+Question Answer Level 11.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+    grid-column: span 3/5
+}
+```
+
+</br>
+
+Question Answer Level 12.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+    grid-row-start: 3;
+}
+```
+
+</br>
+
+Question Answer Level 13.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water { 
+    grid-row: span 3/6;
+}
+```
+
+</br>
+
+Question Answer Level 14.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#poison {
+    grid-row: 5;
+    grid-column: 2;
+}
+```
+
+</br>
+
+Question Answer Level 15.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water { /* Answer */
+    grid-column: span 4/6;
+    grid-row: span 5/6;
+}
+```
+
+</br>
+
+Question Answer Level 16.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+    grid-area: 1/2/4/6;
+}
+```
+
+</br>
+
+Question Answer Level 17.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water-1 {
+    grid-area: 1 / 4 / 6 / 5;
+}
+
+#water-2 {
+    grid-area: 2/3/5/6;
+}
+```
+
+</br>
+
+Question Answer Level 18.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.water {
+    order: 0;
+}
+
+#poison {
+    order: 1;
+}
+```
+
+</br>
+
+Question Answer Level 19.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.water {
+    order: 0;
+}
+
+.poison {
+    order: -1;
+}
+```
+
+</br>
+
+Question Answer Level 20.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+    grid-column: 1;
+    grid-row: 1;
+}
+```
+
+</br>
+
+Question Answer Level 21.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 12.5%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+    grid-column: 1;
+    grid-row: 1;
+}
+```
+
+</br>
+
+Question Answer Level 22.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 100px 3em 40%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+```
+
+</br>
+
+Question Answer Level 23.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+```
+
+</br>
+
+Question Answer Level 24.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 50px;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+    grid-area: 1 / 1 / 6 / 2;
+}
+
+#poison {
+    grid-area: 1 / 5 / 6 / 6;
+}
+```
+
+</br>
+
+Question Answer Level 25.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 75px 3fr 2fr;
+    grid-template-rows: 100%;
+}
+```
+
+</br>
+
+Question Answer Level 26.
+```css
+#garden {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: repeat(4, 12.5px);
+}
+
+#water {
+    grid-column: 1 / 6;
+    grid-row: 5 / 6;
+}
+```
+
+</br>
+
+Question Answer Level 27.
+```css
+#garden {
+    display: grid;
+    grid-template: 60% 60% / 200px;
+}
+
+#water {
+    grid-column: 1;
+    grid-row: 1;
+}
+```
+
+</br>
+
+Question Answer Level 28.
+```css
+#garden {
+  display: grid;
+  grid-template: 1fr 50px / 20% 80%;
+}
+```
+
+
 
 
 ![Grid Garden screenshot](./images/screenshot.png)
